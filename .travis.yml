@@ -1,0 +1,9 @@
+language: go
+
+
+go:
+  - tip
+
+install: make get-deps
+
+script: go test
