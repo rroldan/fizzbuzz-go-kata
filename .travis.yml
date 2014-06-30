@@ -4,4 +4,7 @@ language: go
 go:
   - tip
 
-script: go test
+script:
+  - get github.com/stretchr/testify/assert
+  - go test
+  - go run main.go
