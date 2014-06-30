@@ -4,6 +4,6 @@ language: go
 go:
   - tip
 
-install: make get-deps
+install: make
 
 script: go test
