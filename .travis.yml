@@ -4,6 +4,4 @@ language: go
 go:
   - tip
 
-install: make
-
 script: go test
