@@ -1,3 +1,7 @@
 language: go
 
-script: go get github.com/stretchr/testify/assert && go test
+install:
+  - go get github.com/rroldan/fizzbuzz-go-kata/src/fizzbuzz
+  - go get github.com/stretchr/testify/assert
+
+script: go test
