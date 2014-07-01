@@ -3,4 +3,4 @@ language: go
 install:
   - go get github.com/rroldan/fizzbuzz-go-kata/src/fizzbuzz
 
-script: go test ./...
+script: go test -v fizzbuzz
