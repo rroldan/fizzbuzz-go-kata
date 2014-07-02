@@ -3,6 +3,6 @@ language: go
 install:
   - go get github.com/stretchr/testify/assert
   - export GOPATH=$TRAVIS_BUILD_DIR:$GOPATH
-  - export GOROOT=$TRAVIS_BUILD_DIR:$GOROOT
+  - export GOROOT=$TRAVIS_BUILD_DIR
 notifications:
   email: false
