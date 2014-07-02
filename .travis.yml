@@ -4,8 +4,7 @@ install:
   - go get github.com/rroldan/fizzbuzz-go-kata/src/fizzbuzz
 
 script:
-  - go install
-  - go test
+  - go test github.com/rroldan/fizzbuzz-go-kata/src/fizzbuzz
 
 notifications:
   email: false
