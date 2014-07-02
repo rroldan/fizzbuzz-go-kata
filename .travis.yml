@@ -1,6 +1,6 @@
 language: go
 
-script:
+install:
   - export TRAVIS_BUILD_DIR=$HOME/gopath/src/github.com/rroldan/fizzbuzz-go-kata/src
   - cd $HOME/gopath/src/github.com/rroldan/fizzbuzz-go-kata/src
 
