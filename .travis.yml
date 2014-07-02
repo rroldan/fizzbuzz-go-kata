@@ -4,4 +4,4 @@ install:
   - go get github.com/rroldan/fizzbuzz-go-kata/src/fizzbuzz
 
 script:
-  - go test $TRAVIS_BUILD_DIR/fizzbuzz/fizzbuzz_test.go
+  - go test $TRAVIS_BUILD_DIR/src/fizzbuzz/fizzbuzz_test.go
