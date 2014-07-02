@@ -4,6 +4,7 @@ install:
   - go get github.com/rroldan/fizzbuzz-go-kata/src/fizzbuzz
 
 script:
+  - go install github.com/rroldan/fizzbuzz-go-kata/src/fizzbuzz
   - go test github.com/rroldan/fizzbuzz-go-kata/src/fizzbuzz
 
 notifications:
