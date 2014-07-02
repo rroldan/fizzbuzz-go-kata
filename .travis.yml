@@ -4,5 +4,5 @@ install:
   - go get github.com/rroldan/fizzbuzz-go-kata/src/fizzbuzz
 
 script:
-  - cd src
-  - go test fizzbuzz
+  - cd src/fizzbuzz
+  - go test fizbuzz_test.go
