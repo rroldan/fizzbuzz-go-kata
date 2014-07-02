@@ -2,7 +2,7 @@ language: go
 
 install:
   - go get github.com/stretchr/testify/assert
-  - export GOPATH=$HOME/gopath/src/github.com/rroldan/fizzbuzz-go-kata
-
+  - export GOPATH=$TRAVIS_BUILD_DIR
+  - export GOROOT=$TRAVIS_BUILD_DIR
 notifications:
   email: false
