@@ -1,3 +1,6 @@
+[![Build Status](https://travis-ci.org/rroldan/fizzbuzz-go-kata.png)](https://travis-ci.org/rroldan/fizzbuzz-go-kata)
+
+
 fizzbuzz-go-kata
 ================
 
