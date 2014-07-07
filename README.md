@@ -3,7 +3,7 @@
 
 fizzbuzz-go-kata
 ================
-
+http://www.solveet.com/exercises/Kata-FizzBuzz/11
 
 
 RESULT
