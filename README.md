@@ -4,24 +4,11 @@
 fizzbuzz-go-kata
 ================
 
-TEST
-=====
-Testing started at 09:32 ...
-=== RUN TestVerifcaUno
---- PASS: TestVerifcaUno (0.00 seconds)=== RUN TestVerifcaDos
---- PASS: TestVerifcaDos (0.00 seconds)=== RUN TestVerificaFizz
---- PASS: TestVerificaFizz (0.00 seconds)=== RUN TestVerificaContieneTres
---- PASS: TestVerificaContieneTres (0.00 seconds)=== RUN TestVerificaContieneCinco
---- PASS: TestVerificaContieneCinco (0.00 seconds)=== RUN TestVerificaFizzBuzz
---- PASS: TestVerificaFizzBuzz (0.00 seconds)
-PASS
-ok  	command-line-arguments	0.125s
-Process finished with exit code 0
 
 
 RESULT
 ======
-/usr/local/go/bin/go run /Users/ricardo/IdeaProjects/fizzbuzz-go-kata/src/main/main.go
+
 1
 2
 Fizz
@@ -123,4 +110,3 @@ Fizz
 Fizz
 Buzz
 
-Process finished with exit code 0
